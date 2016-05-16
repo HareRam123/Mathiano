@@ -79,8 +79,8 @@ void mergeSort(int *a, int len) {
 int main() {
 
 	//int a[] = { 1, 5, 7, 2, 4, 9, 6, 8, 5 ,3,5,1,6,7,8};
-	//int a[] = { 10,9,8,7,6,5,4,3,2,1,10,9,8,7,6,5,4,3,2,1,-1,0};
-	int a[] = { 6,5,3,1,8,7,2,4};
+	int a[] = { 10,9,8,7,6,5,4,3,2,1,10,9,8,7,6,5,4,3,2,1,-1,0};
+	//int a[] = { 6,5,3,1,8,7,2,4};
 
 	int len = sizeof(a) / sizeof(int);
 	printArray("UnSortedArray", a, len);
