@@ -33,8 +33,8 @@ void merge(int *a, int low, int mid, int high) {
 		ra[i] = a[i + mid + 1];
 
 
-	printArray("LeftArray", la, len_la);
-	printArray("RightArray", ra, len_ra);
+	//printArray("LeftArray", la, len_la);
+	//printArray("RightArray", ra, len_ra);
 
 	int laIter = 0;
 	int raIter = 0;
