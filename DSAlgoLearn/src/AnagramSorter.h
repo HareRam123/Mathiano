@@ -48,6 +48,7 @@ public:
 				std::cout<< anagram << " ";
 			}
 		}
+		std::cout<< std::endl;
 	}
 
 

@@ -12,6 +12,7 @@
 #include <climits>
 #include "AnagramSorter.h"
 #include "MergeSort.h"
+#include "RotatedSortedMinFinder.h"
 
 using namespace std;
 int main() {
@@ -44,6 +45,16 @@ int main() {
 	xSorter.print();
 	xSorter.sortAnagrams();
 	xSorter.printSortedAnagrams();
+
+//3. RotatedSortArray
+
+	//Test1
+	std::vector<int> v = {9,10,11,12,13,14,15,16,17,1,2,3,4,5,6,7,8};
+	//Test2:
+	//std::vector<int> v = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
+
+	RotatedSortedMinFinder xMinFinder;
+	xMinFinder.findMin(v);
 
 	return 0;
 }
